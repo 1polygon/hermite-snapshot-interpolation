@@ -1,1 +1,0 @@
-# hermite-snapshot-interpolation
