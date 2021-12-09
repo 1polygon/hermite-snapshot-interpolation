@@ -1,0 +1,29 @@
+html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+.stats {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    padding: 1em;
+    color: whitesmoke;
+    background-color: #2d2d2de3;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: .8em
+}
+
+.stats > div {
+    display: flex;
+    gap: 2em;
+    padding: .1em;
+}
+
+.stats > div > div:last-child {
+    flex: 1;
+    text-align: right;
+}
